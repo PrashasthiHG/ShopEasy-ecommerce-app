@@ -1,0 +1,47 @@
+.details-page {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Image styling */
+.details-page img {
+  width: 300px;        /* control size */
+  height: 300px;
+  object-fit: contain; /* VERY IMPORTANT (prevents zoom/crop) */
+  border-radius: 10px;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+/* Right side content */
+.details-page div {
+  max-width: 400px;
+}
+
+.details-page h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.details-page p {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+/* Button */
+.details-page button {
+  margin-top: 15px;
+  padding: 10px 16px;
+  border: none;
+  background: #ff6b00;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.details-page button:hover {
+  background: #e65c00;
+}

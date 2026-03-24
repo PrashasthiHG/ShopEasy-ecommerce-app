@@ -1,0 +1,57 @@
+/* 🔍 Search Bar */
+.search-bar {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Layout */
+.home {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px 20px 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Products */
+.product-section {
+  flex: 1;
+}
+
+/* Grid */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.logout-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #ff4d4f;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #d9363e;
+}
